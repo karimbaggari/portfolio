@@ -6,11 +6,10 @@ export const App = () => {
       <Header />
        <Nav />
       <About />
-      {/*
       <Experience />
-      <Services />
+      <br />
       <Portfolio />
-      <Testimonials />
+     {/* <Testimonials />
       <Contact />
       <Footer /> */}
     </>

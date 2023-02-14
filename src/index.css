@@ -19,8 +19,8 @@
   --color-light: rgba(255, 255, 255, 0.6);
   --transition: all 400ms ease;
   --container-width-lg: 75%;
-  --container-width-lg: 86%;
-  --container-width-lg: 90%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
 }
 
 html {
