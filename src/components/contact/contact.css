@@ -1,0 +1,23 @@
+.container.contact__container {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 2em 1em;
+}
+
+.contact__options {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 1.2rem;
+}
+.contact__option {
+    background: var(--color-bg-variant);
+    padding: 3.2rem;
+    width: 100%;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+
+}

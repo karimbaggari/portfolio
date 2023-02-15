@@ -9,9 +9,9 @@ export const App = () => {
       <Experience />
       <br />
       <Portfolio />
-     {/* <Testimonials />
+      <Testimonials />
       <Contact />
-      <Footer /> */}
+     {/* <Footer /> */}
     </>
   )
 }
