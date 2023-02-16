@@ -56,8 +56,13 @@
     }
 }
 
+
+
 /* SMALL DEVICES */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
+    #experience {
+        margin-top: 22rem;
+    }
     .experience__container {
         gap: 1rem;
     }
@@ -68,4 +73,3 @@
     }
 
 }
-

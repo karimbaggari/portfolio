@@ -1,6 +1,6 @@
 import React from 'react'
 import AVTR1 from '../../assets/me.png';
-import { Navigation,Pagination,Scrollbar,A11y } from 'swiper';
+import { Pagination } from 'swiper';
 import {Swiper , SwiperSlide } from 'swiper/react';
 import 'swiper/css'
 import 'swiper/css/navigation';
@@ -10,7 +10,7 @@ import 'swiper/css/scrollbar';
 import './testimonials.css';
 const Testimonials = () => {
   return (
-    <section id="testimonials" style={{marginTop:"30"+"em"}}>
+    <section id="testimonials">
       <h5>Reviews from clients</h5>
       <h2>Testimonials</h2>
 

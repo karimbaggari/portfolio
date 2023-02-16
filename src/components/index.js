@@ -1,7 +1,7 @@
 import Header from "./header/Header";
 import Nav from "./nav/Nav";
 import About from "./about/About";
-import Experience from "./experience/Experience";
+import Skills from "./skills/Skills";
 import Services from "./services/Services";
 import Portfolio from "./portfolio/Portfolio";
 import Testimonials from "./testimonials/Testimonials";
@@ -12,7 +12,7 @@ export {
   Header,
   Nav,
   About,
-  Experience,
+  Skills,
   Services,
   Portfolio,
   Testimonials,
