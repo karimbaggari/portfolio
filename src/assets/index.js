@@ -30,7 +30,7 @@ import hbs from "./company/hbs.jpeg";
 import evold from "./company/evold.jpeg";
 import youcode from "./company/youcode.jpeg";
 import capgemini from "./company/capgemini.jpeg";
-
+import netflix from './netflix.jpg';
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -44,6 +44,7 @@ export {
   github,
   menu,
   close,
+  netflix,
   css,
   docker,
   sql,

@@ -15,9 +15,14 @@ const Hero = () => {
         </div>
         <div className={`${styles.heroHeadText} text-white`}>
           Hi, I'm <span className="text-[#915eff]">Karim BAGGARI</span>
-          <p className={`${styles.heroSubText} mt-2 text-white-100 `} style={{fontSize:"20px"}}>
-            I am a software engineer  <br className="sm:block hidden" />
-           with experience in both frontend and backend development. I've worked with a range of technologies including JavaScript, Java, and Python, and I'm passionate about building robust and efficient applications. I'm also a cybersecurity enthusiast, and I specialize in penetration testing to identify and address vulnerabilities in systems.
+          <p
+            className={`${styles.heroSubText} mt-2 text-white-100 `}
+            style={{ fontSize: "11px", width: "22%" }}
+          >
+            I am a software engineer <br className="sm:block hidden" />
+            with experience in both frontend and backend development. I've
+            worked with a range of technologies including JavaScript, Java, and
+            Python, I'm also a cybersecurity enthusiast.
           </p>
         </div>
       </div>

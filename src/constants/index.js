@@ -12,6 +12,7 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  netflix,
   git,
   sql,
   docker,
@@ -176,9 +177,9 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Netflix Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "React based Netflix Clone",
     tags: [
       {
         name: "react",
@@ -193,7 +194,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: netflix,
     source_code_link: "https://github.com/",
   },
   {
