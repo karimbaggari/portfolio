@@ -71,8 +71,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>My Blogs</p>
+        <h2 className={`${styles.sectionHeadText}`}>Blogs.</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -87,7 +87,7 @@ const Works = () => {
           and manage projects effectively.
         </motion.p>
       </div>
-      <h4 className={`${styles.sectionTitleText} mt-12`}>Clone Projects.</h4>
+      <h4 className={`${styles.sectionTitleText} mt-12`}>Software Engineering Blogs.</h4>
       <div className="mt-4 flex flex-wrap gap-5">
         {CloneProjects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
@@ -101,14 +101,12 @@ const Works = () => {
             borderRadius: "7%",
           }}
         >
-          See More On Github
+          See More On Medium
         </button>
       </div>
-      <h4 className={`${styles.sectionTitleText} mt-12`}>
-        React & Next & Node Projects.
-      </h4>
+      <h4 className={`${styles.sectionTitleText} mt-12`}>Cyber Security Blogs.</h4>
       <div className="mt-4 flex flex-wrap gap-5">
-        {ReactNextNodeProjects.map((project, index) => (
+        {CloneProjects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
         <button
@@ -120,28 +118,10 @@ const Works = () => {
             borderRadius: "7%",
           }}
         >
-          See More On Github
+          See More On Medium
         </button>
       </div>
-      <h4 className={`${styles.sectionTitleText} mt-12`}>
-        React / Java Spring boot Projects.
-      </h4>
-      <div className="mt-4 flex flex-wrap gap-5">
-        {ReactJavaProjects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
-        <button
-          className={`${styles.buttonStyle}`}
-          style={{
-            border: "1px solid #aaa6c3",
-            background: "rgb(21,16,48)",
-            border: "rgb(21,16,48)",
-            borderRadius: "7%",
-          }}
-        >
-          See More On Github
-        </button>
-      </div>
+      
     </>
   );
 };

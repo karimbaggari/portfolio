@@ -5,7 +5,6 @@ import {
   web,
   javascript,
   typescript,
-  angular,
   java,
   reactjs,
   spring,
@@ -13,6 +12,8 @@ import {
   nodejs,
   mongodb,
   netflix,
+  google,
+  avito,
   git,
   sql,
   docker,
@@ -21,11 +22,8 @@ import {
   hbs,
   capgemini,
   evold,
-  shopify,
-  carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -80,18 +78,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Angular",
-    icon: angular,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Java",
     icon: java,
   },
@@ -102,6 +88,14 @@ const technologies = [
   {
     name: "SQL",
     icon: sql,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "git",
@@ -164,33 +158,31 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
+    company_name: "Capgemini",
     icon: capgemini,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "April 2022 - Present",
     points: [
       "I've had the opportunity to work on a variety of projects during my time here. I have a strong background in both Java and JavaScript, and I've been fortunate to work alongside senior engineers on some very complex codebases. Additionally, I have experience with DevOps engineering, which has given me a well-rounded perspective on the software development process. I'm constantly looking for ways to improve my skills and stay up-to-date on the latest trends and technologies in the field. I take pride in delivering high-quality work and contributing to the success of any team or project I'm a part of.",
     ],
   },
 ];
 
-
-const projects = [
+const CloneProjects = [
   {
     name: "Netflix Clone",
-    description:
-      "React based Netflix Clone",
+    description: "React based Netflix Clone",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "acios",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "vercel",
         color: "pink-text-gradient",
       },
     ],
@@ -198,20 +190,81 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Avito Clone",
+    description: "React Based Avito Clone",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "vercel",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: avito,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Google Clone",
+    description: "React Based Google Clone",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: google,
+    source_code_link: "https://github.com/",
+  },
+];
+const ReactNextNodeProjects = [
+  {
+    name: "Ai Image generator",
+    description: "React Node Based Ai Image generator",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "openAi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: netflix,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Personal Google Maps",
+    description: "Next Based Google Maps Clone",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next",
+        color: "green-text-gradient",
+      },
+      {
+        name: "google maps api",
         color: "pink-text-gradient",
       },
     ],
@@ -219,20 +272,81 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Social Media App",
+    description: "Mern based Social Media application",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+];
+const ReactJavaProjects = [
+  {
+    name: "E-commerce platform",
+    description: "React / Java based e-com platform",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "spring boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: netflix,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Spring boot Microservice",
+    description: "Java Spring boot Microservice Application",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "spring boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Banking System",
+    description: "React / Sping boot Based Banking System",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "spring boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sql",
         color: "pink-text-gradient",
       },
     ],
@@ -241,4 +355,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  CloneProjects,
+  ReactNextNodeProjects,
+  ReactJavaProjects,
+};

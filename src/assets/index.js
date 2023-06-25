@@ -24,13 +24,14 @@ import angular from "./tech/angular.png";
 import jira from "./tech/jira.png";
 import aws from "./tech/aws.jpg";
 import java from "./tech/java.png";
-import threejs from "./tech/threejs.svg";
+import google from "./google.jpg";
+import avito from "./avito.jpg";
 import sql from "./tech/sql.jpg";
 import hbs from "./company/hbs.jpeg";
 import evold from "./company/evold.jpeg";
 import youcode from "./company/youcode.jpeg";
 import capgemini from "./company/capgemini.jpeg";
-import netflix from './netflix.jpg';
+import netflix from "./netflix.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -45,6 +46,8 @@ export {
   menu,
   close,
   netflix,
+  google,
+  avito,
   css,
   docker,
   sql,
@@ -63,7 +66,6 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   youcode,
   hbs,
   evold,
