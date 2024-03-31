@@ -20,9 +20,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="font-bold text-white text-[18px] cursor-pointer flex">
-            Karim BAGGARI &nbsp;
+            Ayoub Essaadani &nbsp;
             <span className="sm:block hidden"> | Software engineer</span>
           </p>
         </Link>
